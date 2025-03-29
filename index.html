@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="form-header">
+            <h1><span>Criar </span>conta</h1>
+            <a href="#">
+                <img src="img/icone-sigin.png" alt="icone entrar">
+            </a>
+        </div>
+
+       <form action="">
+        <div class="area-campos">
+            <div class="input-form">
+                <label for="f-nome">Primeiro nome</label>
+                <input type="text" name="f-nome" id="f-nome" placeholder="seu nome" required>
+            </div>
+
+            <div class="input-form">
+                <label for="f-ultimoNome">Último nome</label>
+                <input type="text" name="f-ultimoNome" id="f-ultimoNome" placeholder="apelido">
+            </div>
+
+            <div class="input-form">
+                <label for="f-nascimento">Nascimento</label>
+                <input type="date" name="f-nascimento" id="f-nascimento" required>
+            </div>
+
+            <div class="input-form">
+                <label for="f-email">Email</label>
+                <input type="email" name="f-email" id="f-email" placeholder="exemplo@exemplo.com" required>
+            </div>
+
+            <div class="input-form">
+                <label for="f-senha">Senha</label>
+                <input type="password" name="f-senha" id="f-senha" placeholder="**********" required>
+            </div>
+
+            <div class="input-form">
+                <label for="f-confSenha">Confirmar senha</label>
+                <input type="password" name="f-confSenha" id="f-confSenha" placeholder="**********" required>
+            </div>
+        </div>
+        <div class="area-genero">
+            <h4>Gênero</h4>
+            <div class="input-genero">
+                <input type="radio" name="genero" id="g-feminino">
+                <label for="g-feminino">Feminino</label>
+            </div>
+
+            <div class="input-genero">
+                <input type="radio" name="genero" id="g-masculino">
+                <label for="g-masculino">Masculino</label>
+            </div>
+
+            <div class="input-genero">
+                <input type="radio" name="genero" id="g-outro">
+                <label for="g-outro">Outro</label>
+            </div>
+        </div>
+
+        <input class="btn-enviar" type="submit" value="Criar conta">
+
+    </main>
+    </div>
+</body>
+</html>

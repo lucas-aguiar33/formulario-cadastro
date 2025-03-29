@@ -1,0 +1,109 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(124, 23, 218);
+    height: 100vh;
+    border:2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f3f3;
+    border-radius:10px;
+    padding:20px;
+}
+
+h1 span {
+    border-bottom:4px solid rgb(124, 23, 218);
+}
+
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding:20px;
+}
+
+
+.area-campos {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top:10px;
+    gap:20px;
+}
+
+.input-form {
+    display:flex;
+    flex-direction: column;
+}
+
+.input-form input {
+    padding:10px;
+    font-size:0.9rem;
+    width:100%;
+    outline: none;
+    border-radius:4px;
+    border:1px solid rgb(207, 202, 202)
+}
+
+.area-genero {
+    display: flex;
+    flex-flow:row wrap;
+    gap:10px;
+    padding-bottom:25px;
+}
+
+.area-genero h4 {
+    width:100%;
+}
+
+.input-genero{
+    margin-right:10px;
+}
+
+.btn-enviar {
+    display: block;
+    width:100%;
+    padding:10px;
+    margin:auto;
+    font-size:1rem;
+    font-weight: bold;
+    color:white;
+    border:none;
+    border-radius:4px;
+    background-color: rgb(124, 23, 218);
+    cursor: pointer;
+    transition:all 0.2s ease;
+}
+
+.btn-enviar:hover{
+    background-color: rgb(112, 29, 191);
+}
+
+
+
+@media screen and (max-width: 500px){
+
+    .area-campos {
+        display: flex;
+        flex-direction:column;
+    }
+
+    .area-genero {
+        padding:25px 0;
+    }
+}

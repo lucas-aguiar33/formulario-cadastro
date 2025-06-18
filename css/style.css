@@ -7,7 +7,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:rgb(124, 23, 218);
-    height: 100vh;
+    min-height: 100vh;
     border:2px solid red;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,8 @@ h1 span {
     width:100%;
     outline: none;
     border-radius:4px;
-    border:1px solid rgb(207, 202, 202)
+    border:1px solid rgb(207, 202, 202);
+    margin-top:5px;
 }
 
 .area-genero {
@@ -65,6 +66,7 @@ h1 span {
     flex-flow:row wrap;
     gap:10px;
     padding-bottom:25px;
+    margin-top:20px;
 }
 
 .area-genero h4 {
@@ -78,7 +80,7 @@ h1 span {
 .btn-enviar {
     display: block;
     width:100%;
-    padding:10px;
+    padding:15px;
     margin:auto;
     font-size:1rem;
     font-weight: bold;
